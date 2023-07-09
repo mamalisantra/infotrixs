@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend", sans-serif;
+}
+
+body {
+  padding-top: 100px;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.sub-heading {
+  font-size: 24px;
+}
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar-brand {
+  color: #ff006e !important;
+  font-weight: bold !important;
+  font-size: 2em !important;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.banner-image {
+  max-width: 500px;
+  width: 100%;
+  padding: 30px;
+}
+
+.banner-hello {
+  font-family: cursive;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+#typing-text {
+  color: #ff006e;
+  font-weight: bold;
+}
+
+/* about section */
+.about-section {
+  background-color: #d8e1e9;
+  padding: 50px 0;
+}
+
+.tab-content {
+  margin-top: 30px;
+}
+
+#myTab .nav-item {
+  margin: 0;
+  padding: 0;
+  margin-right: 20px;
+  color: #a5a5a5 !important;
+}
+
+#myTab .nav-item .active {
+  color: #ff006e;
+}
+
+.edu-container {
+  margin-bottom: 20px;
+}
+.edu-container p {
+  margin: 0;
+  color: #3e3c3c;
+}
+
+.code-skills {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  background-color: #fff;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 15px;
+  gap: 30px;
+}
+
+.skill-card p {
+  margin: 0;
+}
+
+.skill-card .sub {
+  color: #a5a5a5;
+  font-size: 14;
+}
+
+.skill-card .percent {
+  color: #ff006e;
+  font-size: 16px;
+}
+
+/* experience */
+.project-name {
+  color: #ff006e;
+  font-weight: bold;
+}
+
+.project-description {
+  color: gray;
+}
+
+/* contact styles */
+.contact-div {
+  margin: 50px 0;
+  padding: 20px;
+  border: 1px solid #d8e1e9;
+  border-radius: 10px;
+}
+
+.contact-div .contact-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact-list .logo {
+  background-color: #ffdde1;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ff006e;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-list .logo .logo-names {
+  font-weight: 500;
+  text-decoration: none;
+  color: #ff006e;
+  margin-left: 7px;
+  font-size: large;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-div .contact-list{
+    flex-wrap: wrap;
+  }
+}
+
+.resume-button{
+  border: 1px solid #ff006e;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  color: #ff006e
+}

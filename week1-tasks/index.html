@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mamali Santra - Front-End Developer</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Mamali.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" id="home">
+    <div class="banner row">
+      <div class="col-md-6 col-sm-12">
+        <h3 class="sub-heading banner-hello" style="color: gray">Hello, It's Me</h3>
+        <h1 class="heading" style="font-size: 40px">Mamali Santra</h1>
+        <h3 class="sub-heading" id="typing-text"></h3>
+        <br />
+        <a class="resume-button" target="_blank"
+          href="https://drive.google.com/file/d/16dxhsSCH-geowoh6zxZP_hjXq_J--zz0/view?usp=drive_link" download>
+          View Resume
+        </a>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <img src="./assets/banner-logo.png" alt="banner" class="banner-image" />
+      </div>
+    </div>
+  </div>
+
+  <div class="about-section" id="about">
+    <div class="container">
+      <h1 class="heading">About Me</h1>
+      <p style="color: gray">
+        As a front-end developer, I am a passionate problem solver with expertise in HTML, CSS, and JavaScript. With
+        meticulous attention to detail, I design and develop visually appealing user interfaces that provide exceptional
+        experiences. I stay updated with the latest front-end technologies and frameworks to deliver efficient
+        solutions. Collaboration with designers and back-end developers is essential to bring projects to life. I bring
+        a unique perspective and creativity to my work, bridging design and functionality to create seamless user
+        experiences on the web. Combining technical skills and effective communication, I strive for high-quality
+        front-end development.
+      </p>
+      <ul class="nav nav-underline" id="myTab">
+        <li class="nav-item">
+          <a href="#education" class="nav-link active" data-bs-toggle="tab">Education</a>
+        </li>
+        <li class="nav-item">
+          <a href="#skills" class="nav-link" data-bs-toggle="tab">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a href="#experience" class="nav-link" data-bs-toggle="tab">Experience</a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <!-- education -->
+        <div class="tab-pane fade show active" id="education">
+          <div class="edu-container">
+            <p class="year">Passedout year: 2024</p>
+            <p class="standard">Btech from IIIT-Nuzvid</p>
+            <p class="cgpa">CGPA-9.2</p>
+          </div>
+          <div class="edu-container">
+            <p class="year">Passedout year: 2019</p>
+            <p class="standard">PUC from IIIT-Nuzvid</p>
+            <p class="cgpa">CGPA-8.5</p>
+          </div>
+          <div class="edu-container">
+            <p class="year">Passedout year: 2017</p>
+            <p class="standard">SSC from A.P Model School-Bhamini</p>
+            <p class="cgpa">CGPA-9.7</p>
+          </div>
+        </div>
+        <!-- skills -->
+        <div class="tab-pane fade" id="skills">
+          <h3 class="heading" style="font-size: 20px">Web Development</h3>
+          <div class="code-skills">
+            <div class="skill-card">
+              <p class="sub">HTML</p>
+              <p class="percent">100%</p>
+            </div>
+            <div class="skill-card">
+              <p class="sub">CSS</p>
+              <p class="percent">100%</p>
+            </div>
+            <div class="skill-card">
+              <p class="sub">JS</p>
+              <p class="percent">80%</p>
+            </div>
+            <div class="skill-card">
+              <p class="sub">Bootstrap</p>
+              <p class="percent">80%</p>
+            </div>
+            <div class="skill-card">
+              <p class="sub">ReactJS</p>
+              <p class="percent">80%</p>
+            </div>
+          </div>
+          <br />
+          <h3 class="heading" style="font-size: 20px">Programing languages</h3>
+          <div class="code-skills">
+            <div class="skill-card">
+              <p class="sub">C</p>
+              <p class="percent">100%</p>
+            </div>
+            <div class="skill-card">
+              <p class="sub">C++</p>
+              <p class="percent">70%</p>
+            </div>
+            <div class="skill-card">
+              <p class="sub">Python</p>
+              <p class="percent">70%</p>
+            </div>
+            <div class="skill-card">
+              <p class="sub">Java</p>
+              <p class="percent">80%</p>
+            </div>
+            <div class="skill-card">
+              <p class="sub">JS</p>
+              <p class="percent">80%</p>
+            </div>
+          </div>
+        </div>
+        <!-- experience -->
+        <div class="tab-pane fade" id="experience">
+          <h5 class="sub-heading project-name">
+            Project- Domain Router
+          </h5>
+          <p class="project-description">
+            The main objective of the project is to provide proper track and
+            suggestions to choose the best Domain,based on the own interest of a
+            student through a platform(website) whicch one is designed by using
+            the MERN Stack Development.
+          </p>
+          <p>
+            <b>Technologies used:</b>
+            &nbsp;
+            HTML, CSS, Java Script, Bootstrap and ReactJS.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- contact div -->
+  <div class="container" id="contact">
+    <div class="contact-div">
+      <p class="heading" style="text-align:center">Contact Me</p>
+      <div class="contact-list">
+        <i class="fa-solid logo fa-address-book"><a class="logo-names">Mamali Santra</a></i>
+        <i class="fa-solid logo fa-envelope"><a class="logo-names" href="mailto:mamalisantra@gmail.com">mamalisantra@gmail.com</a></i>
+        <i class="fa-solid logo fa-phone"><a class="logo-names" href="callto:8500209895">+918500209895</a></i>
+        <i class="fa-brands logo fa-linkedin"><a class="logo-names" target="_blank"
+            href="https://www.linkedin.com/in/mamali-santra-04b196191?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B3DnK%2BojNTCGjQYdK%2FW05PA%3D%3D">
+            linkd-in profile</a>
+        </i>
+      </div>
+    </div>
+  </div>
+
+  <footer style="text-align:center; padding-bottom:20px; color: gray">
+    &copy; 2023 | All Rights Reserved by <span style="color:#ff006e">Mamali Santra</span>
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
